@@ -1,0 +1,82 @@
+.NavBar {
+    width: 90%;
+}
+
+.navbar_container {
+    height: 3.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e5e5e6;
+    box-shadow: var(--BOX-SHADOW-INPUT);
+    font-family: 'sans-serif';
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    border-radius: .5rem;
+}
+
+.nav:hover {
+    background-color: rgba(0, 0, 0, 0.099);
+
+}
+
+.nav .icon {}
+
+.profile-round {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.profile-round img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.search {
+    display: flex;
+    gap: .3rem;
+
+}
+
+.search input {
+    border: none;
+    outline: none;
+    width: 80%;
+    border-radius: .5rem;
+    background-color: #e3e3e3;
+}
+
+.search input:focus {
+    border: 1px solid rgba(140, 140, 188, 0.708);
+}
+
+.search button {
+    border-radius: .5rem;
+    background-color: #e3e3e3;
+    font-size: medium;
+    width: 1.5rem;
+}
+
+.search button:hover {
+    background-color: white;
+}
+.small_nav{
+    display: flex;
+    gap: 1rem;
+}
+
+
+@media screen and (max-width: 575px) {
+    .small_nav {
+       display: none;
+    }
+}

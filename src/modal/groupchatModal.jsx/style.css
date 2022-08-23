@@ -1,0 +1,25 @@
+.group-create {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+
+}
+
+.group-create input {
+    width: 90%;
+    height: 1.5rem;
+}
+
+.group-create input:focus {
+    border-bottom: 1px solid rgba(26, 150, 26, 0.719);
+}
+
+.list_of_added_user {
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    gap: .3rem;
+}

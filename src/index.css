@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,800;1,400&family=Poppins:ital,wght@0,200;0,600;1,200&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --BACKGROUND: linear-gradient(90deg, rgba(226, 229, 237, 0), #fcfcfe00);
+    --FONT: 'sans-serif', 'Poppins';
+    --BOX-SHADOW-INPUT: rgba(0, 0, 0, 0.245) .2rem .2rem 1rem;
+    --BOX-SHADOW-FORM: rgba(0, 0, 0, 0.245) .5rem .5rem 1rem;
+    --GREEN: rgba(9, 159, 9, 0.786);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background: var(--BACKGROUND);
+    height: 100vh;
+}
