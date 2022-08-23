@@ -16,7 +16,7 @@ function ChatPage () {
   const { setSocket, socket,selectedChat } = useContext(chatContext)
 
   useEffect(() => {
-    Socket = io('http://localhost:5000')
+    Socket = io('https://happy-t-alky-chat-app.herokuapp.com/')
     setSocket(Socket)
   }, [])
 

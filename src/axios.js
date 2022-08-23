@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const axiosInstance = axios.create({
-    baseURL: "http://localhost:5000"
+    baseURL: "https://happy-t-alky-chat-app.herokuapp.com/"
 })
 
 export default axiosInstance;
