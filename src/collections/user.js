@@ -62,7 +62,7 @@ export const SearchUser = async (search, state, ErrorState, LoadState, token) =>
         }
     } catch (error) {
         console.log(error);
-        ErrorState(error.response.data.message)
+        //ErrorState(error.response.data.message)
         LoadState(false)
     }
 }
